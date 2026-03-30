@@ -7,21 +7,41 @@ import Usestatecomponent from "./Components/useStatecomponents";
 import Greeting from "./Props/Child Component";
 import Parent_component from "./Props/Parent Component";
 import ListKeys from "./Components/ListandKeys";
+import Counter from "./React_hooks/usestate";
+import UseEffectExample from "./React_hooks/useeffect";
+import UseContextExample from "./React_hooks/useContext";
+import UseRefExample from "./React_hooks/useRef";
+import UseCallbackExample from "./React_hooks/useCallback";
+import UseMemoExample from "./React_hooks/useMemo";
+import Users from "./ApiSearchinng/Api_Searching";
 const App = () => {
   return ( 
     <>
-    <h1>Hello React </h1>
+    <h1>Stackly React </h1>
     {/* <Function_basedComponents/>
     <Class_based_components/>
     <Parent_component/> */}
     <hr />
-    <Usestatecomponent/>
+    {/* <Usestatecomponent/>
     <hr />
     <EventHandlingComponent/>
     <hr />
         <ConditionalRendring/>
         <hr />
-        <ListKeys/>
+        <ListKeys/> */}
+        <Counter/>
+        <hr />
+        <UseEffectExample/>
+        <UseContextExample/>
+        <hr />
+        <UseRefExample/>
+        <hr />
+        <UseCallbackExample/>
+        <hr />
+        <UseMemoExample/>
+        <hr />
+        
+        <Users/>
         </>
         
    );
