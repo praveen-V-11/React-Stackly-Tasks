@@ -1,0 +1,9 @@
+src/
+│
+├── components/
+│   └── Navbar.jsx
+│
+├── pages/
+│   └── Home.jsx
+│
+└── App.jsx

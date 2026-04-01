@@ -14,6 +14,9 @@ import UseRefExample from "./React_hooks/useRef";
 import UseCallbackExample from "./React_hooks/useCallback";
 import UseMemoExample from "./React_hooks/useMemo";
 import Users from "./ApiSearchinng/Api_Searching";
+import ResuableComponet from "./react_folder_stureture/resuableComponents";
+import PropsExample from "./react_folder_stureture/PropsExaple";
+import Debuggingexample from "./react_folder_stureture/Debugging";
 const App = () => {
   return ( 
     <>
@@ -29,7 +32,7 @@ const App = () => {
         <ConditionalRendring/>
         <hr />
         <ListKeys/> */}
-        <Counter/>
+        {/* <Counter/>
         <hr />
         <UseEffectExample/>
         <UseContextExample/>
@@ -41,7 +44,12 @@ const App = () => {
         <UseMemoExample/>
         <hr />
         
-        <Users/>
+        <Users/> */}
+        <ResuableComponet/>
+        <hr />
+        <PropsExample/>
+        <hr />
+        <Debuggingexample/>
         </>
         
    );
