@@ -17,6 +17,8 @@ import Users from "./ApiSearchinng/Api_Searching";
 import ResuableComponet from "./react_folder_stureture/resuableComponents";
 import PropsExample from "./react_folder_stureture/PropsExaple";
 import Debuggingexample from "./react_folder_stureture/Debugging";
+import PromisContainer from "./API_promise/promise";
+import Cards from "./API_promise/ApiCardview";
 const App = () => {
   return ( 
     <>
@@ -45,11 +47,14 @@ const App = () => {
         <hr />
         
         <Users/> */}
-        <ResuableComponet/>
+        {/* <ResuableComponet/>
         <hr />
         <PropsExample/>
         <hr />
-        <Debuggingexample/>
+        <Debuggingexample/> */}
+        <PromisContainer/>
+        <hr />
+        <Cards/>
         </>
         
    );
