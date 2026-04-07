@@ -19,6 +19,8 @@ import PropsExample from "./react_folder_stureture/PropsExaple";
 import Debuggingexample from "./react_folder_stureture/Debugging";
 import PromisContainer from "./API_promise/promise";
 import Cards from "./API_promise/ApiCardview";
+import ProductCard from "./productlistcompontes/productCardpage";
+import ProductPage from "./productlistcompontes/productpage";
 const App = () => {
   return ( 
     <>
@@ -52,9 +54,11 @@ const App = () => {
         <PropsExample/>
         <hr />
         <Debuggingexample/> */}
-        <PromisContainer/>
+        {/* <PromisContainer/>
         <hr />
-        <Cards/>
+        <Cards/> */}
+        {/* <ProductCard/> */}
+        <ProductPage/>
         </>
         
    );
