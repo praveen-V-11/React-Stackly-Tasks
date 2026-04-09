@@ -21,6 +21,7 @@ import PromisContainer from "./API_promise/promise";
 import Cards from "./API_promise/ApiCardview";
 import ProductCard from "./productlistcompontes/productCardpage";
 import ProductPage from "./productlistcompontes/productpage";
+import UserSearch from "./User List with Search/userlistcomponent";
 const App = () => {
   return ( 
     <>
@@ -58,7 +59,8 @@ const App = () => {
         <hr />
         <Cards/> */}
         {/* <ProductCard/> */}
-        <ProductPage/>
+        {/* <ProductPage/> */}
+        <UserSearch/>
         </>
         
    );
