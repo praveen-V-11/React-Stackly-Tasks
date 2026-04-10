@@ -22,6 +22,8 @@ import Cards from "./API_promise/ApiCardview";
 import ProductCard from "./productlistcompontes/productCardpage";
 import ProductPage from "./productlistcompontes/productpage";
 import UserSearch from "./User List with Search/userlistcomponent";
+import UserList from "./Create User List using API/userlistusingapi";
+import ProductPagelist from "./Product Page with Cart/productpagecart";
 const App = () => {
   return ( 
     <>
@@ -60,7 +62,10 @@ const App = () => {
         <Cards/> */}
         {/* <ProductCard/> */}
         {/* <ProductPage/> */}
-        <UserSearch/>
+        {/* <UserSearch/> */}
+        <UserList/>
+        <hr />
+        <ProductPagelist/>
         </>
         
    );
