@@ -25,6 +25,7 @@ import UserSearch from "./User List with Search/userlistcomponent";
 import UserList from "./Create User List using API/userlistusingapi";
 import ProductPagelist from "./Product Page with Cart/productpagecart";
 import Filteruserlist from "./filteruserlist/filteruserlist";
+import UsersAPI from "./userApi/userapilist";
 const App = () => {
   return ( 
     <>
@@ -68,7 +69,8 @@ const App = () => {
         {/* <hr /> */}
         {/* <ProductPagelist/> */}
 
-        <Filteruserlist/>
+        {/* <Filteruserlist/> */}
+        <UsersAPI/>
         
         </>
         
