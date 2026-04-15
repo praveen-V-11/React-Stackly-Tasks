@@ -24,6 +24,7 @@ import ProductPage from "./productlistcompontes/productpage";
 import UserSearch from "./User List with Search/userlistcomponent";
 import UserList from "./Create User List using API/userlistusingapi";
 import ProductPagelist from "./Product Page with Cart/productpagecart";
+import Filteruserlist from "./filteruserlist/filteruserlist";
 const App = () => {
   return ( 
     <>
@@ -63,9 +64,12 @@ const App = () => {
         {/* <ProductCard/> */}
         {/* <ProductPage/> */}
         {/* <UserSearch/> */}
-        <UserList/>
-        <hr />
-        <ProductPagelist/>
+        {/* <UserList/> */}
+        {/* <hr /> */}
+        {/* <ProductPagelist/> */}
+
+        <Filteruserlist/>
+        
         </>
         
    );
