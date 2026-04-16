@@ -20,12 +20,13 @@ import Debuggingexample from "./react_folder_stureture/Debugging";
 import PromisContainer from "./API_promise/promise";
 import Cards from "./API_promise/ApiCardview";
 import ProductCard from "./productlistcompontes/productCardpage";
-import ProductPage from "./productlistcompontes/productpage";
+// import ProductPage from "./productlistcompontes/productpage";
 import UserSearch from "./User List with Search/userlistcomponent";
 import UserList from "./Create User List using API/userlistusingapi";
 import ProductPagelist from "./Product Page with Cart/productpagecart";
 import Filteruserlist from "./filteruserlist/filteruserlist";
 import UsersAPI from "./userApi/userapilist";
+import ProductPage from "./prodcutpage component/productpage";
 const App = () => {
   return ( 
     <>
@@ -70,7 +71,8 @@ const App = () => {
         {/* <ProductPagelist/> */}
 
         {/* <Filteruserlist/> */}
-        <UsersAPI/>
+        {/* <UsersAPI/> */}
+        <ProductPage/>
         
         </>
         
