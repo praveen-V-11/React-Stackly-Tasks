@@ -27,6 +27,7 @@ import ProductPagelist from "./Product Page with Cart/productpagecart";
 import Filteruserlist from "./filteruserlist/filteruserlist";
 import UsersAPI from "./userApi/userapilist";
 import ProductPage from "./prodcutpage component/productpage";
+import CartPage from "./cartFunctionlaty/cartfunctions";
 const App = () => {
   return ( 
     <>
@@ -72,7 +73,8 @@ const App = () => {
 
         {/* <Filteruserlist/> */}
         {/* <UsersAPI/> */}
-        <ProductPage/>
+        {/* <ProductPage/> */}
+       <CartPage/>
         
         </>
         

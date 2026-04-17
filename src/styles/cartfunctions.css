@@ -1,0 +1,35 @@
+.container {
+  padding: 20px;
+  font-family: Arial;
+}
+
+.products {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cart {
+  border-top: 2px solid #000;
+  padding-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
