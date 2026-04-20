@@ -1,0 +1,29 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  margin: 10px;
+  width: 200px;
+}
+
+select {
+  padding: 8px;
+  margin: 10px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  width: 150px;
+  border-radius: 10px;
+}
