@@ -18,9 +18,8 @@ const Filteruserlist = () => {
         <>
         <div className="container">
       <h2>User Search</h2>
-
       {/* Search Input */}
-      <input
+      <input 
         type="text"
         placeholder="Search user..."
         value={search}
